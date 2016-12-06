@@ -2,19 +2,35 @@
 body{
     font-family: "Merriweather";
 }
+p{
+    font-family:"Open Sans";
+}
+
 /*-----------------------HEADER*/
+header{
+    background-color: #DA2C38;
+}
 .navbar{
     margin: 0;
-    background-color: #DA2C38;
+    border-radius: none;
 }
 .navbar ul li a{
     color: #E8E8B0;
 }
+.navbar ul li a:hover{
+    background-color: rgba(0,0,0,0.4);
+}
 .navbar-header a{
     color: #E8E8B0;
 }
+.navbar button{
+    border: solid 1px #c9bfbf;
+}
+.navbar-header span{
+    background-color: #535a5a;
+}
 .cuadro-negro{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
 }
 /*-----------------------HERO*/
 .hero{
@@ -54,10 +70,10 @@ body{
     padding: 40px 0 80px 0;
 }
 .icon-container{
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
     padding-top: 15px;
 }
